@@ -1,0 +1,21 @@
+1. When to use String vs. StringBuilder in C# ?
+2. What is the base class for all arrays in C#?
+3. How do you sort an array in C#?
+4. What property of an array object can be used to get the total number of elements in
+an array?
+5. Can you store multiple data types in System.Array?
+6. What’s the difference between the System.Array.CopyTo() and System.Array.Clone()?
+
+solution 
+1.It is best to use StringBuilder when a large number of strings are concatenated or a string is frequently manipulated.
+
+2. The Array class is the base class for all the arrays in C#.
+
+3. Array.Sort
+
+4. Array.Length
+
+5. No
+
+6. CopyTo() copies the elements into another existing array.
+Clone()  returns a new array object containing all the elements in the original array.
