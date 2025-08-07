@@ -1,0 +1,49 @@
+
+1. What happens when you divide an int variable by 0?
+Ans: it causes a System.DivideByZeroException error as integer division by zero is undefined.
+
+2. What happens when you divide a double variable by 0?
+Ans: it results in Infinity 
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+Ans: It will take the minimum or maximum value of the int datatype.
+
+4. What is the difference between x = y++; and x = ++y;?
+Ans: Post-increment: The value of y is assigned to x, and then y is incremented by 1.
+Pre-increment: y is incremented by 1, and then the new value of y is assigned to x.
+
+5. What is the difference between break, continue, and return when used inside a loop
+statement?
+Ans: 
+break: Immediately exits the loop, regardless of whether the loop condition is still true. Control moves to the first statement after the loop.
+continue: Skips the rest of the current iteration and jumps directly to the next iteration of the loop.
+return: Exits the entire method (not just the loop) and returns control to the caller. If the method has a return type, a value must be returned.
+
+ What are the three parts of a for statement and which of them are required?
+Ans:
+Initialization, Condition, and Iteration.
+None of them are required, but the two semicolons (;) must still be there to keep the correct format.
+
+7. What is the difference between the = and == operators?
+Ans:
+
+= (Assignment operator): Puts the value on the right into the variable on the left.
+
+== (Equality operator): Checks if two values are the same. Returns true if they are equal, otherwise false.
+
+8. Does the following statement compile? for ( ; true; ) ;
+Ans:
+Yes, it compiles.
+This is an infinite loop because the condition is always true. There's no body, so it just loops forever doing nothing.
+
+9. What does the underscore _ represent in a switch expression?
+Ans:
+The underscore _ is used as the default case in a switch expression.
+It matches any value that hasn’t been matched by earlier cases.
+In C# switch statements, we use default: instead. _ is only for switch expressions.
+
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+Ans:
+The object must implement the IEnumerable interface to work with the foreach loop.
+

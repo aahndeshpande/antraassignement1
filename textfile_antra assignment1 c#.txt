@@ -1,0 +1,36 @@
+1 What type would you choose for the following “numbers”?
+A person’s telephone number : long
+A person’s height:  float
+A person’s age : int
+A person’s gender (Male, Female, Prefer Not To Answer) : string
+A person’s salary : decimal 
+A book’s ISBN : string
+A book’s price: float/decimal/double
+A book’s shipping weight: float
+A country’s population : long
+The number of stars in the universe :  decimal but still it would not be able to store
+The number of employees in each of the small or medium businesses in the 
+United Kingdom (up to about 50,000 employees per business)  : ulong
+
+2. What are the difference between value type and reference type variables? What is
+boxing and unboxing? 
+solution a : value type would directly hold the value and reference type would will hold the momory address or reference for the value 
+            : value type are stored in stack memory but reference types are stored in heap memory
+            : value type will not be collected by a garbage collector but reference type will be collected by garbage collector
+            : value type will be created by struct or enum while reference type will be created by class, interface ,delegate or array
+            : value type cant accept null values but reference type can store null value  
+           b :  boxing : it convert value type to reference type/object type 
+                int i = 15;
+                object o = i; //boxing 
+                int j  = (int) o ; // unboxing 
+                unboxing : convert reference type/object type to value type
+
+ 3. What is meant by the terms managed resource and unmanaged resource in .NET
+ solution : managed resources are objects whoes memory and lifecycle are automatically managed by .NET community while unmanaged resource are thoes whoes memory and lifecycle are not managed by .net community
+
+4. Whats the purpose of Garbage Collector in .NET?
+ The garbage collector manages the allocation and release of memory for an application. 
+  garbage collector only work on heap memory, once we have object that has no reference it would be collected by garbage collection . 
+it will work on reference type, it divides the memory into three generation generation 0,1 and 2 
+
+
